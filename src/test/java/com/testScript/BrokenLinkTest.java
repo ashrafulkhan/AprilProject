@@ -40,7 +40,7 @@ public class BrokenLinkTest extends BasePage {
             if(httpURLConnection.getResponseCode()==200){
                 System.out.println(linkUrl +"-"+httpURLConnection.getResponseMessage());
             }
-            
+
             if(httpURLConnection.getResponseCode()==httpURLConnection.HTTP_NOT_FOUND){
 
                 System.out.println(linkUrl+"-"+httpURLConnection.getResponseMessage()+"-"+httpURLConnection.HTTP_NOT_FOUND);
