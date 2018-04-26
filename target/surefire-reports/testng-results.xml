@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="14220" started-at="2018-04-24T18:29:02Z" finished-at="2018-04-24T18:29:16Z">
+  <suite name="Surefire suite" duration-ms="18321" started-at="2018-04-25T03:05:47Z" finished-at="2018-04-25T03:06:05Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="14220" started-at="2018-04-24T18:29:02Z" finished-at="2018-04-24T18:29:16Z">
+    <test name="Surefire test" duration-ms="18321" started-at="2018-04-25T03:05:47Z" finished-at="2018-04-25T03:06:05Z">
       <class name="com.testScript.BrokenLinkTest">
-        <test-method status="PASS" signature="beforMethod()[pri:0, instance:com.testScript.BrokenLinkTest@614c5515]" name="beforMethod" is-config="true" duration-ms="3357" started-at="2018-04-24T14:29:02Z" finished-at="2018-04-24T14:29:05Z">
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:com.testScript.BrokenLinkTest@6be46e8f]" name="beforMethod" is-config="true" duration-ms="2784" started-at="2018-04-24T23:05:55Z" finished-at="2018-04-24T23:05:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforMethod -->
-        <test-method status="PASS" signature="testBrokenLink()[pri:0, instance:com.testScript.BrokenLinkTest@614c5515]" name="testBrokenLink" duration-ms="10844" started-at="2018-04-24T14:29:05Z" finished-at="2018-04-24T14:29:16Z">
+        <test-method status="PASS" signature="testBrokenLink()[pri:0, instance:com.testScript.BrokenLinkTest@6be46e8f]" name="testBrokenLink" duration-ms="7619" started-at="2018-04-24T23:05:57Z" finished-at="2018-04-24T23:06:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrokenLink -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testScript.BrokenLinkTest@614c5515]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-24T14:29:16Z" finished-at="2018-04-24T14:29:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testScript.BrokenLinkTest@6be46e8f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-24T23:06:05Z" finished-at="2018-04-24T23:06:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.testScript.BrokenLinkTest -->
+      <class name="com.testScript.DragAndDrop">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.testScript.DragAndDrop@68837a77]" name="before" is-config="true" duration-ms="2864" started-at="2018-04-24T23:05:51Z" finished-at="2018-04-24T23:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:com.testScript.DragAndDrop@68837a77]" name="Test" duration-ms="294" started-at="2018-04-24T23:05:54Z" finished-at="2018-04-24T23:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.testScript.DragAndDrop@68837a77]" name="after" is-config="true" duration-ms="0" started-at="2018-04-24T23:05:55Z" finished-at="2018-04-24T23:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.testScript.DragAndDrop -->
+      <class name="com.testScript.GoogleTest01">
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:com.testScript.GoogleTest01@2d554825]" name="beforMethod" is-config="true" duration-ms="3797" started-at="2018-04-24T23:05:47Z" finished-at="2018-04-24T23:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="gotoGooglePage()[pri:0, instance:com.testScript.GoogleTest01@2d554825]" name="gotoGooglePage" duration-ms="941" started-at="2018-04-24T23:05:51Z" finished-at="2018-04-24T23:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoGooglePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testScript.GoogleTest01@2d554825]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-24T23:05:51Z" finished-at="2018-04-24T23:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testScript.GoogleTest01 -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

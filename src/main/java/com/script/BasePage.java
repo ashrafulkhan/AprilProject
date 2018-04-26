@@ -28,6 +28,6 @@ public class BasePage {
 
     @AfterMethod
     public void afterMethod(){
-     driver.close();
+     //driver.close();
     }
 }

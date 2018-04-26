@@ -12,6 +12,7 @@ public class GoogleTest01 extends BasePage{
         WebElement ele=driver.findElement(By.xpath("//input[@id='lst-ib']"));
         ele.sendKeys("32 degrees fahrenheit to celsius");
         ele.submit();
+        System.out.println("Bangladesh ");
 
     }
 }

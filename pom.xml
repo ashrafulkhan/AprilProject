@@ -79,8 +79,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20</version>
                 <configuration>
-
+                 <!--
+                  <includes>**/BrokenLinkTest.java</includes>
+                  <includes>**/GoogleTest01.java</includes>
+                 -->
                 </configuration>
+
             </plugin>
         </plugins>
     </build>
